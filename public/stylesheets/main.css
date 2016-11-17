@@ -1,6 +1,65 @@
+@font-face {
+  font-family: 'Robot';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Robot'), url(MR-ROBOT.tff) format('tff');
+}
+
 body{
   background-color: #e1e3e8;
 }
+
+.mr-robot{
+font-family: Robot;
+color: red;
+font-size: 7em;
+position: absolute;
+top: 30%;
+width: 100%;
+font-size: 7em;
+letter-spacing: 3px;
+text-align: center;
+}
+
+#video-background {
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+}
+
+#centerlogo{
+	position: absolute;
+	top: 30%;
+	right: 50%
+	left: 50%
+	width: auto; 
+    height: auto;
+
+}
+
+article {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 10px;
+}
+
+.navbar-brand{
+	font-family: Robot;
+	color: red;
+}
+
+#topleft{
+	font-family: Robot;
+	color: red;
+}
+
 .h2{
 	color: yellow;
 	
