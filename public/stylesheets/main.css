@@ -6,7 +6,7 @@
 }
 
 body{
-  background-color: #e1e3e8;
+  
 }
 
 #topleft{
@@ -83,7 +83,9 @@ h3{
     background-size: cover;
     -o-background-size: cover;
 }
-
+.img-center {
+        width: auto;
+}
 .img-center {
 	margin: 0 auto;
 }
@@ -93,10 +95,11 @@ h3{
 }
 .footer{
 	text-align: center;
+        background-color: gray;
 }
 footer {
-        position: absolute;
-	      margin-top: 50px;
+        background-color: blue;
+	margin-top: 50px;
         height:50px;
     }
 
