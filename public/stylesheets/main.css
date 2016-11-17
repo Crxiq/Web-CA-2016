@@ -1,0 +1,109 @@
+body{
+  background-color: #e1e3e8;
+}
+.h2{
+	color: yellow;
+	
+}
+.page-header{
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(back.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.img-center {
+	margin: 0 auto;
+}
+
+.navbar-brand{
+	font-family: Roboto
+}
+.footer{
+	text-align: center;
+}
+footer {
+        position: absolute;
+	      margin-top: 50px;
+        height:50px;
+    }
+
+html,
+body {
+    height: 100%;
+}
+
+@-webkit-keyframes mymove {
+    50% {border-color: lightblue;}
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+/* Custom Button Styles */
+
+
+
+.about {
+    padding: 50px 0;
+}
+
+
+
+.star h1, h2 {
+  margin-top: 60px;
+}
+
+a:link {
+    color: #333;
+}
+
+a:visited {
+    color: #333;
+}
+
+a:active {
+    color: #333;
+}
+
+.callout a:hover {
+  color: #b5b8bc;
+  text-decoration: none;
+}
+
+.star a:hover {
+  color: #b5b8bc;
+  text-decoration: none;
+}
