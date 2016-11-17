@@ -1,12 +1,17 @@
 @font-face {
-  font-family: 'Robot';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Robot'), url(MR-ROBOT.tff) format('tff');
+    font-family: 'Robot';
+    src: url('stylesheets/fonts/MR-ROBOT.tff') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body{
   background-color: #e1e3e8;
+}
+
+#topleft{
+	font-family: 'Robot';
+	color: red;
 }
 
 .mr-robot{
