@@ -6,25 +6,9 @@
 }
 
 body{
-  
+  color: blue;
 }
 
-#topleft{
-	font-family: 'Robot';
-	color: red;
-}
-
-.mr-robot{
-font-family: Robot;
-color: red;
-font-size: 7em;
-position: absolute;
-top: 30%;
-width: 100%;
-font-size: 7em;
-letter-spacing: 3px;
-text-align: center;
-}
 
 #video-background {
   right: 0; 
@@ -52,14 +36,10 @@ article {
 }
 
 .navbar-brand{
-	font-family: Robot;
-	color: red;
+	font-family: Arial;
 }
 
-#topleft{
-	font-family: Robot;
-	color: red;
-}
+
 
 .h2{
 	color: yellow;
@@ -90,17 +70,13 @@ h3{
 	margin: 0 auto;
 }
 
-.navbar-brand{
-	font-family: Roboto
-}
+
 .footer{
 	text-align: center;
-        background-color: gray;
 }
 footer {
-        background-color: blue;
 	margin-top: 50px;
-        height:50px;
+    height:50px;
     }
 
 html,
