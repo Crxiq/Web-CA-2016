@@ -1,29 +1,40 @@
 @font-face {
-    font-family: 'Robot';
-    src: url('mr-robot-webfont.woff2') format('woff2'),
-         url('mr-robot-webfont.woff') format('woff');
-    font-weight: 200;
-    font-style: normal;
+    	font-family: 'Robot';
+    	src: url('fonts/mr-robot-webfont.woff2') format('woff2'),
+             url('fonts/mr-robot-webfont.woff') format('woff');
+    	font-weight: 200;
+    	font-style: normal;
 
 }
 
 body{
-  color: blue;
+	background-color: rgb(251,249,242);
+	overflow-x: hidden;
+	overflow-y: scroll;
 }
+
+/*----------NAV BAR----------*/
 
 #topleft{
 	font-family: 'Robot', Arial;
 	color: red;
 }
 
+.navbar-brand{
+	font-family: Arial;
+}
+
+/*---------INDEX PAGE--------*/
+
 #video-background {
-  right: 0; 
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-  width: auto; 
-  height: auto;
-  z-index: -100;
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto;
+	z-index: -100;
+	margin: 0 auto;
 }
 
 #centerlogo{
@@ -32,25 +43,6 @@ body{
 	margin: 0 auto;
 }
 
-article {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: 10px;
-}
-
-.navbar-brand{
-	font-family: Arial;
-}
-
-
-
-.h2{
-	color: yellow;
-	
-}
 .page-header{
 	text-align: center;
 }
@@ -58,64 +50,58 @@ article {
 h3{
 	text-align: center;
 }
-.header {
-    display: table;
-    position: relative;
+
+/*-------ABOUT US------*/
+
+.jumbotron {
     width: 100%;
     height: 100%;
-    background: url(back.jpg) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-.img-center {
-        width: auto;
-}
-.img-center {
-	margin: 0 auto;
-}
-
-
-.footer{
-	text-align: center;
-}
-footer {
-	margin-top: 50px;
-    height:50px;
-    }
-
-html,
-body {
-    height: 100%;
-}
-
-@-webkit-keyframes mymove {
-    50% {border-color: lightblue;}
-}
-
-.fill {
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.text-vertical-center {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-}
-
-.text-vertical-center h1 {
-    margin: 0;
     padding: 0;
-    font-size: 4.5em;
-    font-weight: 700;
+    margin-bottom: 0;
+    padding-top: 20px;
+    margin-top: 0;
+    padding-bottom: 120px;
+    background-color: rgb(249,244,230);
+    background-color: rgba(249,244,230,0.5);
+    color: #333;
 }
+.materials {
+    color: #333;
+    background: url(../images/vapor.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.design{
+    color: #333;
+    background: url(../images/vapor.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin-top: 0;
+    width: 100%;
+    background-color: rgb(251,249,242);
+    background-color: rgba(251,249,242,0.9);
+}
+.overlay {
+    margin-top: 100px;
+    width: 100%;
+    background-color: rgb(251,249,242);
+    background-color: rgba(251,249,242,0.9);
+    color: #333;
+}
+
+#oldmac{
+	position: absolute;
+  	top: 6000%;
+  	left: 0;
+  	right: 0;
+  	bottom: 0;
+  	margin: 10px;
+}
+
+footer {
+	background-color: rgb(251,249,242);
+    	margin-top: 50px;
+    	height:50px;
+	text-align: center;
+    }
 
 /* Custom Button Styles */
 
@@ -124,8 +110,6 @@ body {
 .about {
     padding: 50px 0;
 }
-
-
 
 .star h1, h2 {
   margin-top: 60px;
@@ -143,12 +127,3 @@ a:active {
     color: #333;
 }
 
-.callout a:hover {
-  color: #b5b8bc;
-  text-decoration: none;
-}
-
-.star a:hover {
-  color: #b5b8bc;
-  text-decoration: none;
-}
